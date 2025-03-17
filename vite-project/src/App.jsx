@@ -251,13 +251,6 @@ export default function login() {
       localStorage.setItem('name', name)
       localStorage.setItem('email', email)
       localStorage.setItem("password", password)
-
-
-      const hand = () => {
-         const newUser = { name, email, password };
-         localStorage.setItem('user', JSON.stringify(newUser))
-         setUser(newUser)
-       }
     }
 
    return (
@@ -304,3 +297,6 @@ export default function login() {
 //     )
    
 // }
+
+
+
