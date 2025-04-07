@@ -1,0 +1,20 @@
+.login{
+  border: solid 2px white;
+  width: 200px;
+  height: auto;
+  margin-left: 650px;
+  border-radius: 10px;
+  padding: 30px;
+  
+}
+
+.btn{
+  width: 200px;
+  background-color: rgb(75, 75, 166);
+  margin-top: 10px;
+}
+
+input{
+  width: 200px;
+
+}
