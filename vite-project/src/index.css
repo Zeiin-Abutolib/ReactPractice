@@ -1,4 +1,4 @@
-:root {
+root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -12,6 +12,100 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+
+
+
+
+
+
+
+
+
+body{
+  background-color: gray;
+}
+
+.Clearbtn{
+  background-color: blue;
+  color: white;
+}
+
+
+.proverka{
+  background-color: white;
+  width: 600px;
+  margin-left: 500px;
+  padding: 30px;
+}
+
+.Addbtn{
+  background-color: green;
+  color: white;
+}
+.Removebtn{
+  background-color: red;
+  color: white;
+} 
+
+.Cartalar{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(199, 197, 197);
+  margin-top: 10px;
+
+
+}
+.Cartalar:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.Tovarlar{
+  background-color: blue;
+  color: white;
+}
+
+.Korzina{
+  background-color: red;
+  color: white;
+}
+
+
+
+.itogo{
+  background-color: green;
+  color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 a {
   font-weight: 500;
@@ -42,7 +136,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
   cursor: pointer;
   transition: border-color 0.25s;
 }
